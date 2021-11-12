@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="33107" started-at="2021-11-11T22:09:06 IST" finished-at="2021-11-11T22:09:39 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="33107" started-at="2021-11-11T22:09:06 IST" finished-at="2021-11-11T22:09:39 IST">
+      <class name="test.SampleTest">
+        <test-method status="PASS" signature="extentFileCreation()[pri:0, instance:test.SampleTest@1b26f7b2]" name="extentFileCreation" is-config="true" duration-ms="327" started-at="2021-11-11T22:09:06 IST" finished-at="2021-11-11T22:09:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentFileCreation -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:test.SampleTest@1b26f7b2]" name="setup" is-config="true" duration-ms="9539" started-at="2021-11-11T22:09:06 IST" finished-at="2021-11-11T22:09:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:test.SampleTest@1b26f7b2]" name="mytest" duration-ms="22799" started-at="2021-11-11T22:09:16 IST" finished-at="2021-11-11T22:09:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:test.SampleTest@1b26f7b2]" name="cleanUp" is-config="true" duration-ms="737" started-at="2021-11-11T22:09:39 IST" finished-at="2021-11-11T22:09:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- test.SampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
